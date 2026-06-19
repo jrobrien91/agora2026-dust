@@ -1,0 +1,38 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: ARM Big Open Data Summer School
+  description: Connecting ARM's Unique Data Record with State-of-the-Art Analysis
+  github: https://github.com/ARM-Development/arm-summer-school-2026
+  # keywords: []
+  authors:
+    - name: Joe O'Brien
+      orcid: 0000-0003-4655-6912
+      github: jrobrien91
+    - name: Bruno Longarela
+    - name: Camelia Gînscă
+    - name: Daniele Bortoli
+    - name: Garima Shukla
+    - name: Avinash Yadav
+    - name: Nicole Liu
+  bibliography: references.bib
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: README.md
+    - title: Saharan Dust Outbreak Analysis 1-5 March 2026
+      children:
+        - file: notebooks/Python_tool_AGORA_DB.ipynb
+        - file: notebooks/modis-dust.ipynb
+        - file: notebooks/AERONET.ipynb
+        - file: notebooks/EarthCARE_EBD_2A.ipynb
+    
+site:
+  parts:
+    footer: footer.md
+  options:
+    logo: images/arm_logo.png
+    footer_logos:
+        ARM: images/Agora_small.png
+  nav:
+    - title: AGORA Home
+      url: https://canal.ugr.es/noticia/agora-atmospheric-training-school-ugr/
