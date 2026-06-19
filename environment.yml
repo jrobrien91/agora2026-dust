@@ -17,3 +17,4 @@ dependencies:
   - scikit-learn
   - pytorch
   - pytz
+  - pyhdf
