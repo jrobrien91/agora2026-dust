@@ -6,6 +6,14 @@
 
 **Instructor**: [Daniele Bortoli](https://scholar.google.com/citations?user=UapBfBMAAAAJ&hl=en)
 
+**Team Members**
+- Avinash Yadav
+- Bruno Longarela
+- Camelia Gînscă
+- Garima Shukla
+- Joseph O'Brein
+- Nicole Liu
+
 **Description**:
 
 Aerosol monitoring is essential for understanding atmospheric processes, assessing air quality, and

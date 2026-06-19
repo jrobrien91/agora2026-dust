@@ -1,9 +1,9 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: ARM Big Open Data Summer School
-  description: Connecting ARM's Unique Data Record with State-of-the-Art Analysis
-  github: https://github.com/ARM-Development/arm-summer-school-2026
+  title: 3rd AGORA Training School - Project δ
+  description: Implementation of Jupiter notebook for analysis of dust intrusions events on the western Iberian Peninsula
+  github: https://github.com/jrobrien91/agora2026-dust/
   # keywords: []
   authors:
     - name: Joe O'Brien
@@ -12,7 +12,10 @@ project:
     - name: Bruno Longarela
     - name: Camelia Gînscă
     - name: Daniele Bortoli
+    - name: Avinash Yadav
+      orcid: 0009-0001-7696-8566
     - name: Garima Shukla
+      orcid: 0000-0002-6565-8749
     - name: Avinash Yadav
     - name: Nicole Liu
   bibliography: references.bib
@@ -30,7 +33,7 @@ site:
   parts:
     footer: footer.md
   options:
-    logo: images/arm_logo.png
+    logo: images/Agora_small.png
     footer_logos:
         ARM: images/Agora_small.png
   nav:
@@ -38,3 +41,5 @@ site:
       url: https://canal.ugr.es/noticia/agora-atmospheric-training-school-ugr/
     - title: AGORA Schedule
       url: https://atmosphere.ugr.es/about/presentation/agora/training/
+    - title: Final Presentation
+      url: https://docs.google.com/presentation/d/1SdI8jhCo3jbPyomzjlCpjFZW1ArCKysc/edit?usp=sharing&ouid=109349383496523856822&rtpof=true&sd=true/
