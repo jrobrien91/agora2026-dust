@@ -1,0 +1,45 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: 3rd AGORA Training School - Project δ
+  description: Implementation of Jupiter notebook for analysis of dust intrusions events on the western Iberian Peninsula
+  github: https://github.com/jrobrien91/agora2026-dust/
+  # keywords: []
+  authors:
+    - name: Joe O'Brien
+      orcid: 0000-0003-4655-6912
+      github: jrobrien91
+    - name: Bruno Longarela
+    - name: Camelia Gînscă
+    - name: Daniele Bortoli
+    - name: Avinash Yadav
+      orcid: 0009-0001-7696-8566
+    - name: Garima Shukla
+      orcid: 0000-0002-6565-8749
+    - name: Avinash Yadav
+    - name: Nicole Liu
+  bibliography: references.bib
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: README.md
+    - title: Saharan Dust Outbreak Analysis 1-5 March 2026
+      children:
+        - file: notebooks/Python_tool_AGORA_DB.ipynb
+        - file: notebooks/modis-dust.ipynb
+        - file: notebooks/AERONET.ipynb
+        - file: notebooks/EarthCARE_EBD_2A.ipynb
+    
+site:
+  parts:
+    footer: footer.md
+  options:
+    logo: images/Agora_small.png
+    footer_logos:
+        ARM: images/Agora_small.png
+  nav:
+    - title: AGORA Home
+      url: https://canal.ugr.es/noticia/agora-atmospheric-training-school-ugr/
+    - title: AGORA Schedule
+      url: https://atmosphere.ugr.es/about/presentation/agora/training/
+    - title: Final Presentation
+      url: https://docs.google.com/presentation/d/1SdI8jhCo3jbPyomzjlCpjFZW1ArCKysc/edit?usp=sharing&ouid=109349383496523856822&rtpof=true&sd=true/
