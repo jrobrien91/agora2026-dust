@@ -11,7 +11,7 @@
 - Bruno Longarela
 - Camelia Gînscă
 - Garima Shukla
-- Joseph O'Brein
+- Joseph O'Brien
 - Nicole Liu
 
 **Description**:
